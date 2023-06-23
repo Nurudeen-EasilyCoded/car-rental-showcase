@@ -17,17 +17,16 @@ const Hero = () => {
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
         <h1 className="hero__title">
-          Find, book, rent a car—quick and super easy!
+        Explore, Rent or buy your favourite car <br /> &mdash; at ease!
         </h1>
 
         <p className="hero__subtitle">
-          Streamline your car rental experience with our effortless booking
-          process.
+        Utilize our effortless booking process to streamline your experience
         </p>
 
         <CustomButton
           title="Explore Cars"
-          containerStyles="bg-primary-blue text-white rounded-full mt-10"
+          containerStyles="bg-[#b18904] text-white rounded-full mt-10"
           handleClick={handleScroll}
         />
       </div>
